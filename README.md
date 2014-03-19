@@ -13,14 +13,24 @@ Emails are sent to you throughout the week to help you keep focus.
 
 ## UI MOCKUP
 
-How many hours do you want to work this week? __________ Last week you worked __63 hours__
+Last week you worked __63 hours__
 
-:ballot_box_with_check: Spartan      ---------=====------- __20 hours__
+How many hours do you want to work this week? __________ 
 
-:ballot_box_with_check: Fundography  ----=====------------ __10 hours__
+[X] Apple        ---------=====------- __20 hours__
 
-:ballot_box_with_check: 12 Week Year --=====-------------- __08 hours__
+[X] Google       ----=====------------ __10 hours__
 
-:white_square: Cooper Tire
+[X] GitHub       --=====-------------- __08 hours__
 
-:white_square: Pipeline
+[ ] Harvest      ---------------------
+
+[ ] Pipeline     ---------------------
+
+==========================================================================
+
+How your week is going:
+
+|___|||_____||||||__________
+
+M   T    W    T   F   S   S
