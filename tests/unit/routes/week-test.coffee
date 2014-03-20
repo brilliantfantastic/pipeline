@@ -11,11 +11,11 @@ test "it exists", ->
   ok @subject() instanceof Week
 
 test "#model", ->
-  expect(2)
+  expect 2
 
   expectedModel = {
-    id: '1'
-    week: '201412'
+    id: 201412
+    week: 201412
     hours: 25
   }
 
