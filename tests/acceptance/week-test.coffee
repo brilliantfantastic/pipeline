@@ -6,5 +6,6 @@ module "Acceptance - Week",
 
 test "week renders", ->
   expect 1
-  visit("/weeks/201412").then ->
+
+  visit("/weeks/1").then ->
     ok exists "#period-estimate"
