@@ -1,5 +1,5 @@
-Week = Ember.Route.extend
+WeekRoute = Ember.Route.extend
   model: (params) ->
-    @store.find 'period', params.week_number
+    @store.findOrInitialize 'period', params.week_number
 
-`export default Week`
+`export default WeekRoute`

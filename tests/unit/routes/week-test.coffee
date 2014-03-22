@@ -19,9 +19,9 @@ test "#model", ->
     hours: 25
   }
 
-  store.find = (type) =>
+  store.findOrInitialize = (type) =>
     equal type, 'period'
     expectedModel
   @subject().set 'store', store
 
-  equal @subject().model('201412'), expectedModel, "did not correctly invoke store"
+  equal @subject().model(201412), expectedModel, "did not correctly invoke store"
