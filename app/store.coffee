@@ -14,6 +14,8 @@ Store = DS.Store.extend
     store = @
     promiseObject.then ((result) -> result), (reason) ->
       throw reason if (!reason || !reason.status || reason.status != 404)
-      store.createRecord type, id
+      record = store.recordForId(type, id)
+      record.loadedData()
+      record
 
 `export default Store`
