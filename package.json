@@ -1,8 +1,8 @@
 {
   "name": "app-kit",
   "namespace": "appkit",
-  "APIMethod": "stub",
-  "proxyURL": "http://localhost:8000",
+  "APIMethod": "proxy",
+  "proxyURL": "http://localhost:3000",
   "proxyPath": "/api",
   "version": "0.0.0",
   "private": true,
@@ -18,9 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanpenner/ember-app-kit.git"
+    "url": "git://github.com/brilliantfantastic/pipeline"
   },
-  "author": "",
+  "author": "Jamie Wright",
   "license": "MIT",
   "devDependencies": {
     "express": "~3.4.8",
