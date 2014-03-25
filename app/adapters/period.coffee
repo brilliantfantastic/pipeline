@@ -11,4 +11,5 @@ PeriodAdapter = DS.FixtureAdapter.extend
     else
       Ember.RSVP.Promise.reject {status: 404}
 
-`export default PeriodAdapter`
+#`export default PeriodAdapter`
+`export default DS.ActiveModelAdapter.extend({namespace: "api"})`

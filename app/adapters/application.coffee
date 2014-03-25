@@ -7,22 +7,4 @@ DS.FixtureAdapter.reopen
         return false  if record[key] isnt value
       true
 
-  simulateRemoteErrorCall: (callback, context) ->
-    adapter = this
-    new Ember.RSVP.Promise((resolve) ->
-      if get(adapter, "simulateRemoteResponse")
-        # Schedule with setTimeout
-        Ember.run.later (->
-          resolve callback.call(context)
-          return
-        ), get(adapter, "latency")
-      else
-        # Asynchronous, but at the of the runloop with zero latency
-        Ember.run.schedule "actions", null, ->
-          resolve callback.call(context)
-          return
-
-      return
-    , "DS: FixtureAdapter#simulateRemoteCall")
-
-`export default DS.FixtureAdapter.extend()`
+`export default DS.ActiveModelAdapter.extend({namespace: "api"})`
