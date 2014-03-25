@@ -1,3 +1,5 @@
+[ ![Codeship Status for brilliantfantastic/pipeline](https://www.codeship.io/projects/a364cd20-95fe-0131-e1bc-6e8a0237d18c/status?branch=master)](https://www.codeship.io/projects/16883)
+
 pipeline / A simple way to plan your work week
 ==============================================
 ***
