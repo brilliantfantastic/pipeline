@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>App</title>
+  <title>pipeline - A simple way to plan your week</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,6 +46,7 @@
     <script src="/vendor/loader.js"></script>
     <script src="/vendor/ember-resolver/dist/ember-resolver.js"></script>
     <script src="/vendor/ic-ajax/main.js"></script>
+    <script src="/vendor/sinon/index.js"></script>
 
   <!-- endbuild -->
 
@@ -56,13 +57,6 @@
 
   <!-- endbuild -->
 
-  <!-- @if dist=false -->
-  <style>
-    @keyframes domChanged { from { background: yellow; } }
-    @-webkit-keyframes domChanged { from { background: yellow; } }
-    .ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; }
-  </style>
-  <!-- @endif -->
   <!-- @if tests=true -->
   <script src="/vendor/ember-shim.js"></script>
   <link rel="stylesheet" href="/vendor/qunit/qunit/qunit.css">

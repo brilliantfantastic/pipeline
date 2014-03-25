@@ -8,6 +8,7 @@ require('ember-qunit').setResolver(resolver);
 
 window.startApp          = require('appkit/tests/helpers/start-app')['default'];
 window.isolatedContainer = require('ember-qunit/isolated-container')['default'];
+window.FakeServer        = require('appkit/tests/helpers/fake-server')['default'];
 
 function exists(selector) {
   return !!find(selector).length;
