@@ -16,7 +16,7 @@ test "#model", ->
   expectedModel = {
     id: 201412
     week: 201412
-    hours: 25
+    hoursEstimate: 25
   }
 
   store.findOrInitialize = (type) =>

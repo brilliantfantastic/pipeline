@@ -8,7 +8,7 @@ module "Acceptance - Week",
       period:
         id: 1
         week: 201412
-        hours: 63
+        hoursEstimate: 63
 
   teardown: -> 
     Ember.run App, "destroy"
@@ -37,7 +37,7 @@ test "creates a new period when a period estimate is entered", ->
         period:
           id: 2
           week: 201413
-          hours: 44
+          hoursEstimate: 44
       # This is a poor verification but it is good for now since we don't know 
       # what to verify just yet
       ok true == true
