@@ -4,7 +4,7 @@ WeekController = Ember.ObjectController.extend
     numberOfProjects = 3 - projects.get('length')
     if numberOfProjects > 0
       period = @get('model')
-      projects.pushObject(@store.createRecord('project', {period: period})) for [1..numberOfProjects]
+      [1..numberOfProjects].forEach => projects.pushObject(@store.createRecord('project', {period: period}))
     projects
   ).property('model.projects')
 
