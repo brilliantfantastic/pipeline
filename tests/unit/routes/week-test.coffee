@@ -1,5 +1,5 @@
 `import { test, moduleFor } from 'ember-qunit'`
-`import Week from 'appkit/routes/week'`
+`import WeekRoute from 'appkit/routes/week'`
 
 store = undefined
 
@@ -8,7 +8,7 @@ moduleFor 'route:week', "Unit - WeekRoute",
     store = {}
 
 test "it exists", ->
-  ok @subject() instanceof Week
+  ok @subject() instanceof WeekRoute
 
 test "its model is returned if it already exists", ->
   expect 1
