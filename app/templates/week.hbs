@@ -2,3 +2,9 @@
   How many hours do you expect to work this week? {{input type="text" value=hoursEstimate focus-out='acceptChanges' 
                                                                                   insert-newline='acceptChanges'}}
 </div>
+
+<div id='period-projects'>
+  {{#each projects}}
+    {{input type="text" name="project[name]" value=name}}
+  {{/each}}
+</div>
