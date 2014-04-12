@@ -3,7 +3,9 @@
 
 @import "vendor/normalize-css/normalize.css";
 @import "vendor/bourbon/app/assets/stylesheets/bourbon";
-@import "base/grid_settings";
+@import "vendor/neat/app/assets/stylesheets/neat-helpers";
+@import "vendor/bitters/app/assets/stylesheets/grid-settings";
+@import "vendor/bitters/app/assets/stylesheets/bitters";
 @import "vendor/neat/app/assets/stylesheets/neat";
 
 // BASE
