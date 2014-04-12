@@ -10,9 +10,17 @@
 
 // BASE
 // -----------------------------
+
 @import "base/settings";
 
 // LAYOUT
 // -----------------------------
 
 @import "layout/grid";
+
+// MODULES
+// -----------------------------
+
+@import "modules/header";
+@import "modules/avatars";
+@import "modules/media";
