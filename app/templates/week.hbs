@@ -1,10 +1,13 @@
-<div id='period-estimate'>
-  How many hours do you expect to work this week? {{input type="text" value=hoursEstimate focus-out='acceptChanges' 
-                                                                                  insert-newline='acceptChanges'}}
-</div>
+<div class='main-content'>
+  <div id='period-estimate'>
+    <label>How many hours do you expect to work this week?</label>
+    {{input type="text" value=hoursEstimate focus-out='acceptChanges' insert-newline='acceptChanges'}}
+  </div>
 
-<div id='period-projects'>
-  {{#each projects}}
-    <div>{{input type="text" name="project[name]" value=name}}</div>
-  {{/each}}
+  <div id='period-projects'>
+    <h3>Your Projects</h3>
+    {{#each projects}}
+      <div>{{input type="text" name="project[name]" value=name}}</div>
+    {{/each}}
+  </div>
 </div>

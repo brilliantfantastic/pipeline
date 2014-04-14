@@ -24,8 +24,14 @@ header.navigation {
     float: left;
     height: $navigation-height;
     line-height: $navigation-height;
-    padding-left: 1em;
     padding-right: 2em;
+    font-family: $logo-font;
+    font-size: em(50);
+    color: $navigation-color;
+
+    &:hover {
+      color: $navigation-color-hover;
+    }
 
     img {
       max-height: $navigation-height;
