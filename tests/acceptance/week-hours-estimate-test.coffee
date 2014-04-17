@@ -1,7 +1,7 @@
 App = undefined
 server = undefined
 
-module "Acceptance - Week",
+module "Acceptance - Week Hours Estimate",
   setup: -> 
     App = startApp()
     server = new FakeServer(true).respondWith 200, 'GET', '/api/periods/201412',

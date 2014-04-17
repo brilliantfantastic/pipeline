@@ -1,0 +1,42 @@
+.container {
+  @include outer-container;
+}
+
+.row {
+  @include row;
+}
+
+.col-1 {
+  @include span-columns(1);
+}
+
+.col-2 {
+  @include span-columns(2);
+}
+
+.col-3 {
+  @include span-columns(3);
+}
+
+.col-4 {
+  @include span-columns(4);
+}
+
+.col-5 {
+  @include span-columns(5);
+}
+
+.col-6 {
+  @include span-columns(6);
+}
+
+.col-last {
+  @include omega();
+}
+
+[class^="col-"] {
+  &.col-centered {
+    float: none;
+    margin: 0 auto;
+  }
+}

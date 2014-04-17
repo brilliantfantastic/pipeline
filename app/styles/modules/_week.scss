@@ -1,0 +1,19 @@
+#period-estimate {
+  label {
+    display: inline;
+    padding-right: em(10);
+  }
+
+  input[type=text] {
+    display: inline;
+    width: 80px;
+    text-align: center;
+    font-size: em(32);
+  }
+}
+
+#period-projects {
+  input[type=text] {
+    width: em(400);
+  }
+}

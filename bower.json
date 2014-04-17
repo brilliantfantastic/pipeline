@@ -10,7 +10,10 @@
     "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#master",
     "ic-ajax": "~0.3.0",
     "ember-testing-httpRespond": "~0.1.1",
-    "sinon": "http://sinonjs.org/releases/sinon-1.9.0.js"
+    "sinon": "http://sinonjs.org/releases/sinon-1.9.0.js",
+    "bourbon": "~3.1.8",
+    "neat": "~1.5.1",
+    "bitters": "~0.9.3"
   },
   "resolutions": {
     "ember": "~1.4.0"

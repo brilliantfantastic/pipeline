@@ -1,0 +1,34 @@
+<header class="navigation">
+  <div class="menu-wrapper">
+    <a href="#" class="logo">Pipeline</a>
+    <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+    <div class="nav">
+      <ul id="navigation-menu">
+        <li class="profile">
+          <div class="media">
+            <div class="media__body"><a href="#">Nicholas</a></div>
+            <div class="media__obj">
+              <img src="http://www.placecage.com/c/40/40" class="avatar" alt="Nicholas Cage" />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<script>
+  $(function() {
+    var menu = $('#navigation-menu');
+    var menuToggle = $('#js-mobile-menu');
+
+    $(menuToggle).on('click', function(e) {
+      e.preventDefault();
+      menu.slideToggle(function(){
+        if(menu.is(':hidden')) {
+          menu.removeAttr('style');
+        }
+      });
+    });
+  });
+</script>
